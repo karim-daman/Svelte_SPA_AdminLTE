@@ -4,14 +4,14 @@ import NotFound from './routes/NotFound.svelte';
 import Dashboard from "./routes/Dashboard.svelte"
 
 export default {
-    '/': Home,
-    '/Dashboard':Dashboard,
+    '/': Dashboard,
+    // '/Dashboard':Dashboard,
 
 
 
 
 
-    '/lorem/:repeat': Lorem,
+    // '/lorem/:repeat': Lorem,
     // The catch-all route must always be last
     '*': NotFound
 };
